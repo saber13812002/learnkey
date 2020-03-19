@@ -1,0 +1,55 @@
+*** WooStore Changelog ***
+
+2011.10.24 - version 1.0.9
+ * includes/theme-options.php - refined homepage options and added latest blog post to homepage content option.
+ * index.php - tweaked homepage content option to show latest blog post
+ * includes/theme-woocomerce.php added search fragment for search pagination
+ * style.css - Hide slides and slide navigation until the slider has loaded.
+ * /includes/js/general.js - Add support for displaying a single slide. Fade slide navigation in once loaded.
+ * /includes/slider.php - Hide slider navigation if there is only a single slide.
+
+2011.10.19 - version 1.0.8
+ * includes/theme-woocommerce.php hooked WC sidebar differently for easier removal
+ * template-sale.php added sale template
+ * /lang replaced en_US with en_GB
+ * includes/theme-woocomerce.php added search fragment for search pagination
+
+2011.10.19 - version 1.0.7
+ * front-page.php - DELETED (remove from your theme folder)
+ * index.php - added proper classes to home-content 
+ * includes/theme-options.php - fixed homepage content to pull a page
+ * style.css - added CSS for .home-content. Tweaked styling for slider navigation
+ * includes/slider.php - fixed prev/next buttons to not slide
+ * images/btn-slider-left.png, images/btn-slider-right.png - tweaked images
+
+2011.10.17 - version 1.0.6
+ * includes/theme-options.php improved 'Homepage Content' label to avoid confusion
+
+2011.10.16 - version 1.0.5
+ * style.css improved sub category styling
+ * includes/widgets/widget-woo-twitter.php secure http request
+ * includes/theme-woocommerce.php unhooked wc sidebar
+
+2011.10.11 - version 1.0.4
+ * includes/featured-products-slider.php php class fix
+ * css/effects.css, css/reset.css - merged into style.css
+ * header.php - removed effects.css
+
+2011.10.06 - version 1.0.3
+ * includes/theme-options.php adding product post type to Woo SEO panel
+ * style.css added form-row-wide class
+
+2011.10.05 - version 1.0.2
+ * style.css fixed a bug with the footer widget alignment in FF7.
+ * style.css made sure blog posts don't wrap around breadcrumbs
+ * includes/theme-actions.php line 95 made sure user specified bg colour persists when using alternate colour scheme.
+ * includes/js/general.js slider persistent randomize bug
+
+2011.10.03 - version 1.0.1
+ * style.css fixed selects within tables displaying strangely in IE8.
+ * style.css made h1.title & h1.page-title clear the breadcrumb.
+ * includes/js/general.js removed uniform from checkboxes to fix contact form bug
+ * added includes/theme-install.php for defining options on theme activation and moved image option updates here
+
+2011.09.27 - version 1.0
+ * First release!

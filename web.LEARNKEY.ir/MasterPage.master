@@ -1,0 +1,331 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0017)http://koomeh.ir/ -->
+<!DOCTYPE html PUBLIC "" ""><!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]--><!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]--><!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]--><!--[if gt IE 8]><!--><HTML 
+class="no-js"><!--<![endif]--><HEAD><META content="IE=10.000" 
+http-equiv="X-UA-Compatible">
+     
+<META charset="utf-8">     
+<META http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">     <TITLE>املاک 
+کومه | خانه - آپارتمان - زمین</TITLE>     
+<META name="viewport" content="width=device-width">     
+<META name="description">     
+<META name="keywords">     <!---->     <LINK href="default_files/jquery-ui.css" 
+rel="stylesheet" type="text/css">     <LINK href="http://koomeh.ir/Content/Images/favicon.ico" 
+rel="icon" sizes="16x16">     <LINK href="default_files/prettyPhoto.css" rel="stylesheet"> 
+    <LINK href="default_files/styles.css" rel="stylesheet">     <LINK href="default_files/exposure.css" 
+rel="stylesheet">     <LINK href="default_files/bxslider.css" rel="stylesheet">  
+   <LINK href="default_files/framework.css" rel="stylesheet">     <LINK href="default_files/jquery-ui(1).css" 
+rel="stylesheet">     <LINK href="default_files/main.css" rel="stylesheet">     
+<LINK href="default_files/bootstrap-rtl.css" rel="stylesheet">     <LINK href="default_files/skin.css" 
+rel="stylesheet">     <LINK href="default_files/font-awesome.css" rel="stylesheet"> 
+    <LINK href="default_files/multiple-select.css" rel="stylesheet">         
+<SCRIPT src="default_files/js.js"></SCRIPT>
+             
+<META name="GENERATOR" content="MSHTML 10.00.9200.16660"></HEAD> 
+<BODY class="home"><HEADER id="header">
+<DIV class="container">
+<DIV class="topbar"><SPAN><I class="fa fa-calendar"></I>1395 سه شنبه 11 
+آبان</SPAN>                             </DIV><!-- Modal -->                     
+                                             
+<DIV class="navigation"><A class="logo" href="http://koomeh.ir/">
+<H1><IMG height="70" alt="املاک کومه" src="default_files/logo.png"> </H1></A>    
+             <NAV>
+<DIV class="desktop">
+<UL>
+  <LI><A class="button th-yellow active" href="http://koomeh.ir/">صفحه 
+  اصلی</A></LI>
+  <LI><A href="http://koomeh.ir/RegisterEstate">ثبت ملک</A></LI>
+  <LI><A href="http://koomeh.ir/RequestEstate">درخواست ملک</A></LI>
+  <LI><A href="http://koomeh.ir/Search">جستجوی پیشرفته</A></LI>
+  <LI><A href="http://koomeh.ir/Home/Employee">استخدام</A></LI>
+  <LI><A href="http://koomeh.ir/Home/ContactUs">تماس با ما</A></LI></UL></DIV>
+<DIV class="mobile">
+<DIV class="styled-select"></DIV></DIV></NAV></DIV>
+<DIV class="slider">
+<UL class="slides">
+  <LI><A><IMG width="940" height="360" src="default_files/4649-Original-Resolution.jpg"></A></LI>
+  <LI><A><IMG width="940" height="360" src=""></A></LI>
+  <LI><A><IMG width="940" height="360" src=""></A></LI>
+  <LI><A><IMG width="940" height="360" src=""></A></LI></UL>
+<DIV class="controls">
+<DIV class="arrow prev"></DIV>
+<DIV class="arrow next"></DIV></DIV></DIV>
+<DIV class="tabing">
+<UL class="tabs groups">
+  <LI class="active"><A id="BuyAndSell" onclick="BuyAndSell();" href="javascript::void">خرید 
+  و فروش</A>                 
+  <DIV class="arrow-left s1 activate" onclick="BuyAndSell();"></DIV></LI>
+  <LI><A id="MortgageAndRent" onclick="MortgageAndRent();" href="javascript::void">رهن 
+  و اجاره</A>                 
+  <DIV class="arrow-left s2" onclick="MortgageAndRent();"></DIV></LI></UL></DIV>
+<DIV class="quick-search">
+<FORM onsubmit="DoSubmit();" action="/Search/Result" method="post"><INPUT name="__RequestVerificationToken" 
+type="hidden" value="17BVKiUDE1f2D-3Bfj9hFoufF4zr6xN_b-O217vabjKjin5MvfWh4qKXE_uyTplXu7nRiC0zs7QquYCm_rn_HTE50PdO1B0FUPmKxaOgjYg1"> 
+           <INPUT name="SearchType" type="hidden" value="1">             <INPUT 
+name="Parameters.DealType" id="Type" type="hidden" value="1">             
+<DIV class="clearfix"></DIV>
+<DIV class="train-railing tmobile">
+<DIV class="railing"></DIV>
+<H3 class="train" style="font-size: 24px; font-weight: 800;">ملک ایده آل خود را 
+بیابید</H3>
+<DIV class="railing"></DIV></DIV>
+<UL class="filters">
+  <LI>
+  <DIV class="styled-select"><SELECT name="Parameters.ProvinceId" id="Province" 
+  data-val-number="The field ProvinceId must be a number." 
+    data-val="true"><OPTION value="">همه استان ها</OPTION> <OPTION 
+    value="1">تهران</OPTION> <OPTION value="2">قم</OPTION> <OPTION 
+    value="3">آذربایجان شرقی</OPTION> <OPTION value="4">آذربایجان غربی</OPTION> 
+    <OPTION value="5">اردبیل</OPTION> <OPTION value="6">اصفهان </OPTION> <OPTION 
+    value="8">البرز</OPTION> <OPTION value="9">ایلام</OPTION> <OPTION 
+    value="10">بوشهر</OPTION> <OPTION value="11">چهارمحال و بختیاری</OPTION> 
+    <OPTION value="12">خراسان جنوبی</OPTION> <OPTION value="13">خراسان 
+    رضوی</OPTION> <OPTION value="14">خراسان شمالی</OPTION> <OPTION 
+    value="15">خوزستان</OPTION> <OPTION value="16">زنجان</OPTION> <OPTION value="17">سمنان</OPTION> 
+    <OPTION value="18">سیستان و بلوچستان</OPTION> <OPTION 
+    value="19">فارس</OPTION> <OPTION value="20">قزوین</OPTION> <OPTION value="21">کردستان</OPTION> 
+    <OPTION value="22">کرمان</OPTION> <OPTION value="23">کرمانشاه</OPTION> 
+    <OPTION value="24">کهگیلویه و بویراحمد</OPTION> <OPTION 
+    value="25">گلستان</OPTION> <OPTION value="26">گیلان</OPTION> <OPTION value="27">لرستان</OPTION> 
+    <OPTION value="28">مازندران</OPTION> <OPTION value="29">مرکزی</OPTION> 
+    <OPTION value="30">هرمزگان</OPTION> <OPTION value="31">همدان</OPTION> 
+    <OPTION value="32">یزد</OPTION> </SELECT>                     </DIV></LI>
+  <LI>
+  <DIV class="styled-select"><SELECT name="Parameters.CityID" 
+    id="City"><OPTION value="">همه شهرها</OPTION>                         
+  </SELECT>                     </DIV></LI>
+  <LI>
+  <DIV class="styled-select"><SELECT name="Parameters.ZoneID" 
+    id="Zone"><OPTION value="">منطقه</OPTION>                         </SELECT>    
+                   </DIV></LI>
+  <LI>
+  <DIV class="styled-select"><SELECT name="Parameters.EstateType"><OPTION 
+    value="1">آپارتمان</OPTION>                             <OPTION 
+    value="8">ویلایی</OPTION>                             <OPTION 
+    value="2">تجاری / اداری</OPTION>                             <OPTION value="3">کارخانه 
+    / کارگاه</OPTION>                                                         
+    <OPTION value="5">باغ / ویلا</OPTION>                             <OPTION 
+    value="6">زمین</OPTION>                             <OPTION id="presaletype" 
+    value="7">پیش فروش</OPTION>                         </SELECT>                  
+     </DIV></LI>
+  <LI id="MinPrice"><INPUT name="Parameters.MinPrice" class="amount" id="Parameters_MinPrice" 
+  type="text" placeholder="حداقل قیمت" value="" data-val-number="The field MinPrice must be a number." 
+  data-val="true">                 </LI>
+  <LI id="MaxPrice"><INPUT name="Parameters.MaxPrice" class="amount" id="Parameters_MaxPrice" 
+  type="text" placeholder="حداکثر قیمت" value="" data-val-number="The field MaxPrice must be a number." 
+  data-val="true">                 </LI>
+  <LI class="none" id="MaxMortgage"><INPUT name="Parameters.MaxMortgage" class="amount" 
+  id="Parameters_MaxMortgage" type="text" placeholder="حداکثر رهن" value="" 
+  data-val-number="The field MaxMortgage must be a number." data-val="true">     
+              </LI>
+  <LI class="none" id="MaxRent"><INPUT name="Parameters.MaxRent" class="amount" 
+  id="Parameters_MaxRent" type="text" placeholder="حداکثر اجاره" value="" 
+  data-val-number="The field MaxRent must be a number." data-val="true">         
+          </LI>
+  <LI><INPUT name="Parameters.MinArea" class="digits" id="Parameters_MinArea" 
+  type="text" placeholder="حداقل متراژ" value="" data-val-number="The field MinArea must be a number." 
+  data-val="true">                 </LI>
+  <LI><INPUT name="Parameters.MaxArea" class="digits" id="Parameters_MaxArea" 
+  type="text" placeholder="حداکثر متراژ" value="" data-val-number="The field MaxArea must be a number." 
+  data-val="true">                 </LI></UL>
+<DIV class="clearfix"></DIV>
+<P style="text-align: left; padding-left: 8px;"><A class="submit button th-brown" 
+href="http://koomeh.ir/Search">جستجوی پیشرفته</A>                 <INPUT class="submit button th-brown" type="submit" value="جستجو"> 
+            </P></FORM></DIV>
+<DIV class="quick-search-shadow"></DIV></DIV></HEADER>
+<STYLE>
+    .styled-select {
+        background:#fff;
+        height:auto;
+    }
+    .home #header {
+        height:410px;
+    }
+    .tabs .active a:after, .tabs .active a:before {
+		background: #E97636;
+	}
+    #BuyAndSell::after {
+        position:static !important;
+    }
+</STYLE>
+     <SECTION id="main" style="margin: 230px auto 0px !important; clear: both !important; float: none !important;" 
+data-role="main">
+<DIV class="container" style="margin: 0px auto !important; clear: both !important; float: none !important;">
+<DIV class="clearfix"></DIV>
+<DIV class="train-railing separator m10">
+<DIV class="railing"></DIV>
+    <!--
+<H3 class="train">اکازیون</H3>
+<DIV class="railing"></DIV></DIV>
+<DIV class="offers slide use-box-sizing-content-box">
+    -->
+
+
+
+    
+        <asp:ContentPlaceHolder id="itemsgridoffer" runat="server">
+    
+        </asp:ContentPlaceHolder>
+
+<!--
+</DIV>
+<DIV class="clearfix"></DIV>
+<DIV class="train-railing separator m10">
+<DIV class="railing"></DIV>
+    -->
+
+
+
+    <!--
+<H3 class="train">فروش فوری</H3>
+<DIV class="railing"></DIV></DIV>
+<DIV class="offers slide use-box-sizing-content-box">
+
+        <asp:ContentPlaceHolder id="itemsgridofferFori" runat="server">
+    
+        </asp:ContentPlaceHolder>
+
+</DIV>
+<DIV class="clearfix"></DIV>
+
+    -->
+<DIV class="train-railing separator">
+<DIV class="railing"></DIV>
+<H3 class="train">جستجو از روی نقشه</H3>
+<DIV class="railing"></DIV></DIV>
+<DIV class="box map">
+<DIV class="use-box-sizing-content-box" id="properties-map"></DIV></DIV>
+<DIV class="train-railing separator">
+<DIV class="railing"></DIV>
+<H3 class="train"><IMG alt="" src="default_files/ornament.png"></H3>
+<DIV class="railing"></DIV></DIV>
+<DIV class="box-home grid promises">
+<H2>اخبار اقتصادی و مسکن</H2>
+<HR>
+
+<H5 class="newspadd"><IMG width="24" height="24" src="default_files/news-icon.png"> 
+<A href="http://koomeh.ir/Home/News/1007">معدل رشد یکساله اجاره‌ بها در 
+کشور</A></H5>
+<H5 class="newspadd"><IMG width="24" height="24" src="default_files/news-icon.png"> 
+<A href="http://koomeh.ir/Home/News/1006">پیام ریزش معاملات اجاره</A></H5>
+<H5 class="newspadd"><IMG width="24" height="24" src="default_files/news-icon.png"> 
+<A href="http://koomeh.ir/Home/News/5">اثر کاهش نرخ سود بر رونق بازار 
+مسکن.</A></H5>
+<H5 class="newspadd"><IMG width="24" height="24" src="default_files/news-icon.png"> 
+<A href="http://koomeh.ir/Home/News/3">مهلت یک‌ماهه آخوندی برای اصلاح مصوبه 
+جنجالی مسکن مهر </A></H5></DIV>
+<DIV class="box-home grid promises">
+<H2>مقالات اقتصادی و مسکن</H2>
+<HR>
+
+<H5 class="newspadd"><IMG width="24" height="24" src="default_files/news-icon.png"><A 
+href="http://koomeh.ir/Home/Articles/4">ممانعت از زمین‌خواری با اعتباربخشی به 
+سند رسمی</A></H5>
+<H5 class="newspadd"><IMG width="24" height="24" src="default_files/news-icon.png"><A 
+href="http://koomeh.ir/Home/Articles/3">قیمت واقعی خانه در تهران </A></H5>
+<H5 class="newspadd"><IMG width="24" height="24" src="default_files/news-icon.png"><A 
+href="http://koomeh.ir/Home/Articles/2">مردم منتظر کاهش قیمت مسکن نباشند 
+</A></H5>
+<H5 class="newspadd"><IMG width="24" height="24" src="default_files/news-icon.png"><A 
+href="http://koomeh.ir/Home/Articles/1">پیش‌بینی قیمت مسکن پس از توافق 
+هسته‌ای</A></H5></DIV>
+<DIV class="clearfix"></DIV></DIV><!-- /.container -->     </SECTION><FOOTER id="footer">
+<DIV class="container grid grid-fluid-3">
+<DIV class="col alpha" style="width: 50%;">
+<H4>اطلاعات تماس</H4>
+<P>آدرس: قم - شهرک پردیسان - میدان تیراژه</P>
+<P>تلفن: 32807676 - 025 (4 خط)</P>
+<P>فکس: 32813784 - 025</P>
+<P>ایمیل: info@koomeh.ir</P></DIV>
+<DIV class="col omega" style="width: 50%;">
+<H4>رسانه ها</H4>
+<P class="text-center"><IMG width="120" height="120" alt="" src="default_files/qr.png"> 
+                </P>
+<UL class="text-center">
+  <LI><A href="https://instagram.com/koomeh.ir"><IMG width="50" height="50" alt="" 
+  src="default_files/instagram.png">                             </A></LI>
+  <LI><A href="https://telegram.me/amlakekoomeh"><IMG width="50" height="50" 
+  alt="" src="default_files/telegram.png">                             
+</A></LI></UL></DIV></DIV>
+<P class="text-center">کلیه حقوق متعلق به گروه املاک کومه می باشد.</P></FOOTER>
+<SCRIPT src="default_files/jquery-2-1-1.js"></SCRIPT>
+     
+<SCRIPT src="default_files/jquery-gmaps-latlon-picker.js"></SCRIPT>
+     
+<SCRIPT src="default_files/modernizr-2-6-2.js"></SCRIPT>
+     
+<SCRIPT src="default_files/bootstrap.js"></SCRIPT>
+     
+<SCRIPT src="default_files/jquery-validate.js"></SCRIPT>
+     
+<SCRIPT src="default_files/jquery-validate-unobtrusive.js"></SCRIPT>
+     
+<SCRIPT src="default_files/jquery-easing.js"></SCRIPT>
+     
+<SCRIPT src="default_files/jquery-exposure.js"></SCRIPT>
+     
+<SCRIPT src="default_files/properties.js"></SCRIPT>
+     
+<SCRIPT src="default_files/main.js"></SCRIPT>
+     
+<SCRIPT src="default_files/script.js"></SCRIPT>
+     
+<SCRIPT src="default_files/prettyPhoto.js"></SCRIPT>
+     
+<SCRIPT src="default_files/bxslider.js"></SCRIPT>
+     
+<SCRIPT src="default_files/custom.js"></SCRIPT>
+     
+<SCRIPT src="default_files/multiple-select.js"></SCRIPT>
+     
+<SCRIPT src="default_files/first.js"></SCRIPT>
+     
+<SCRIPT src="default_files/second.js"></SCRIPT>
+     
+<SCRIPT src=""></SCRIPT>
+         
+<SCRIPT src="default_files/jquery-simple-pagination-plugin.js"></SCRIPT>
+     
+<SCRIPT>
+    (function ($) {
+
+        $('#Offers').simplePagination({
+            items_per_page: 10,
+            number_of_visible_page_numbers: 7
+        });
+
+    })(jQuery);
+    </SCRIPT>
+     
+<SCRIPT src="default_files/persianumber.min.js"></SCRIPT>
+     
+<SCRIPT>
+    $('*').persiaNumber();
+    </SCRIPT>
+     
+<SCRIPT src="default_files/allquries.js"></SCRIPT>
+     
+<SCRIPT src="default_files/jquery-1-6.js"></SCRIPT>
+     
+<SCRIPT src="default_files/datepicker-cc-all.js"></SCRIPT>
+     
+<SCRIPT src="default_files/query162.js"></SCRIPT>
+     
+<SCRIPT src="default_files/bootbox.js"></SCRIPT>
+     
+<SCRIPT>
+    $(document).ready(function () {
+        bootbox.alert("");
+    })
+    function DoSubmit() {
+        $('.amount').each(function () { $(this).val($(this).val().split(',').join('')); })
+        return true;
+    }
+    </SCRIPT>
+         </BODY></HTML>
+d="form1" runat="server">
+    <div>
+
+

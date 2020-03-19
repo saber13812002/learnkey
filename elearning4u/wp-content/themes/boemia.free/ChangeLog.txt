@@ -1,0 +1,59 @@
+------------------ VER 1.2.1 - Released: 03-25-2014 ---------------
+Fixed: various woocommerce bugs on WC 2.1.5
+
+UPDATE:
+languages/default.po
+languages/yit.pot
+theme/woocommerce.php
+woocommerce/content-product.php
+woocommerce/loop/add-to-cart.php
+woocommerce/single-product/product-attributes.php
+woocommerce/single-product/product-image.php
+woocommerce/single-product/product-thumbnails.php
+woocommerce/single-product-reviews.php
+woocommerce_2.0.x/single-product-reviews.php
+
+------------------ VER 1.2.0 - Released: 02-27-2014 ---------------
+Added: Support to WC 2.1.x
+
+UPDATED:
+core/functions-core.php
+index.php
+theme/templates/comments/markup.php
+theme/woocommerce.php
+woocommerce/*.*
+woocommerce_2.0.x/*.*
+
+------------------ VER 1.1.0 - Released: 01-08-2014 ---------------
+Added: Support to WP 3.8
+
+UPDATED:
+ChangeLog.txt
+style.css
+core/assets/css/metaboxes.css
+core/assets/css/panel.css
+core/lib/yit/Type/Types/Selecticon.php
+core/yit/CPT_Unlimited.php
+core/yit/Services.php
+core/yit/Testimonial.php
+
+------------------ VER 1.0.1 ---------------   
+Fixed: "Show read more button" bug
+Fixed: getimagesize() warning error
+Fixed: Theme options select option tweaks
+
+UPDATED:
+ChangeLog.txt
+cache/google_fonts.json
+core/lib/yit/Type/Types/Customsidebar.php
+core/lib/yit/Type/Types/Selecticon.php
+core/lib/yit/Type/Types/Sidebarlayout.php
+core/yit/Image.php
+theme/templates/blog/small/markup.php
+theme/tr.php
+languages/default.po
+languages/yit.pot
+
+
+------------------ VER 1.0.0 ---------------
+Initial Release

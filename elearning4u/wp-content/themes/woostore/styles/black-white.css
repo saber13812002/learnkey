@@ -1,0 +1,71 @@
+/* Black & White Stylesheet */
+
+body  { background-color: #f9f9f9; }
+a:link, a:visited  { color: #000; }
+ul.products li a.button  { color: #000!important; }
+
+
+
+#btn-cart a { background: transparent url(black-white/btn-cart-a.png) no-repeat scroll top right; }
+#btn-cart a span { background: transparent url(black-white/btn-cart-span.png) no-repeat; }
+
+a.button, .button.alt, .button, input.button, button.button, a.comment-reply-link, #commentform #submit, #featured-products ul.products .button {
+	border: 1px solid #000;
+	border-bottom-color: #000;
+	
+	/*Background*/
+	background: #202020; /*Fallback*/
+	background: -webkit-gradient(
+					linear,
+					left top,
+					left bottom,
+					color-stop(.2, #202020),
+					color-stop(1, #343434)
+				);
+	background: -moz-linear-gradient(
+					center top,
+					#202020 20%,
+					#343434 100%
+				);
+}
+
+a.button:hover, 
+.button.alt:hover,
+.button:hover,
+input.button:hover,
+button.button:hover,
+a.button.hover, 
+a.button.active,
+#featured-products ul.products .button:hover {
+	/*Background*/
+	background: #343434; /*Fallback*/
+	background: -webkit-gradient(
+					linear,
+					left top,
+					left bottom,
+					color-stop(.2, #343434),
+					color-stop(1, #444444)
+				);
+	background: -moz-linear-gradient(
+					center top,
+					#343434 20%,
+					#444444 100%
+				);
+}
+
+a.button:active,
+.button.alt:active,
+a.button.active,
+input.button:active,
+button.button:active,
+#featured-products ul.products .button:active  {
+	border-color: #20559a;
+	
+	/*Box shadow*/
+	-webkit-box-shadow: inset 0 0 7px hsla(0,0%,0%,.3) /*Shine*/,
+						0 1px 0 hsla(0, 100%, 100%, 1) /*Shadow*/;
+	-moz-box-shadow: inset 0 0 7px hsla(0,0%,0%,.3) /*Shine*/,
+					0 1px 0 hsla(0, 100%, 100%, 1) /*Shadow*/;
+	box-shadow: inset 0 0 7px hsla(0,0%,0%,.3) /*Shine*/,
+				0 1px 0 hsla(0, 100%, 100%, 1) /*Shadow*/;
+}

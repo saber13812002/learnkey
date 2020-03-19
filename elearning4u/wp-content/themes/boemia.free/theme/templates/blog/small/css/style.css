@@ -1,0 +1,188 @@
+.blog-small { margin-bottom: 50px; }
+
+.blog-small .post-title:hover,
+.blog-small .post-title a:hover { color: #B77A2B; }
+
+.blog-small .soundcloud-frame {margin-top: 0;}
+
+/* === THUMBNAIL */
+.blog-small .thumbnail {
+    border-color: #e5e7e7;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    padding-bottom: 12px;
+    padding-top: 17px;
+    padding-left: 17px;
+    padding-right: 17px;
+    position: relative;
+}
+
+.blog-small .post-informations {float: left;}
+
+.blog-small .thumbnail .image-wrap {margin-right: 20px;}
+
+#ie8 .blog-small .thumbnail .image-wrap + div { width: 335px; }
+
+.blog-small .the-content {margin-left: 30px;}
+.blog-small .the-content a.more-link {color: #db902b;}
+
+/* === META */
+.blog-small .meta {
+    background: transparent;
+    margin-left: 0px;
+    margin-bottom: 22px;
+}
+
+.blog-small .without.thumbnail .meta {
+    position: static;
+}
+
+.blog-small .meta .date .day{
+    display: block;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 19px;
+    margin-left: 6px;
+    margin-right: 11px;
+    text-align: center;
+}
+
+.blog-small .meta .date .month{
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    font-size: 14px;
+    margin-bottom: 8px;
+    margin-top: 2px;
+}
+
+.blog-small .meta .date{
+    color: #000000;
+    margin-right: 14px;
+    float:left;
+    border: 1px solid #7d7b7b;
+    margin-top: 0;
+}
+
+
+.blog-small .meta.quote div { min-height:80px; }
+.blog-small .meta div p.author,
+.blog-small .meta div p.author i { margin-top: 0px; }
+
+.blog-small .meta div p.author img,
+.blog-small .meta div p.comments img,
+.blog-small .meta div p.tags img{
+    border: 1px solid #7d7b7b;
+    padding: 4px;
+}
+
+.blog-small .meta div p.author,
+.blog-small .meta div p.comments,
+.blog-small .meta div p.tags{
+    font-weight: bold;
+}
+
+.blog-small .meta div p.author a:hover,
+.blog-small .meta div p.comments a:hover,
+.blog-small .meta div p.tags a:hover{
+    color: #db902b;
+}
+
+.blog-small .meta div p { margin-bottom: -8px; margin-top: 9px; }
+
+.blog-small .meta div p i {
+    font-size: 15px;
+    margin-right: 14px;
+}
+.blog-small h2.post-title a{font-weight: bold;}
+
+.blog-small h2.post-title.audio,
+.blog-small h1.post-title.audio{margin-left: 20px;}
+
+.blog-small .meta div p img { margin-right: 6px; }
+.blog-small .meta div p, .blog-small .meta div p a { color: #5f5e5e; }
+
+.blog-small .meta div p span,
+.blog-small .meta div p a:hover span,
+.blog-small .meta div p a:hover { color: #000; }
+
+.blog-small .meta div p a span { cursor: text; }
+
+.blog-small .meta div p,
+.blog-small .meta div p span,
+.blog-small .meta div p a span,
+.blog-small .meta div p a,
+.blog-small .meta div p a:hover span,
+.blog-small .meta div p a:hover { font-size: 13px; }
+
+/* === POST FORMATS */
+.blog-small .post-format {
+    background: url(../../../../../images/post-formats.png);
+    display: block;
+    margin: 0px;
+    position: absolute;
+    right: 12px;
+    top: 13px;
+    text-indent: -9999px;
+    width: 33px;
+    height: 33px;
+}
+
+
+
+.blog-small .post-format.gallery { background-position: left top; }
+.blog-small .post-format.audio { background-position: center top; }
+.blog-small .post-format.video { background-position: right top; }
+
+.blog-small.format-quote .post-title {
+    background-position: 0 25px;
+    font-size: 19px;
+    margin-top: 15px;
+    padding-left: 34px;
+    padding-bottom: 18px;
+}
+
+.blog-small.format-quote .post-title cite {
+    color: #a96605;
+    display: block;
+    font-size: 16px;
+}
+
+.blog-small.format-quote .post-title cite:before { content: "- "; }
+
+.blog-small.format-quote .meta {
+    float: none;
+    position: static;
+}
+
+@media (min-width: 979px) and (max-width: 1199px) {
+    .blog-small .thumbnail .image-wrap + div {
+        width: 335px;
+    }
+}
+
+@media (min-width:1200px) {
+    .blog-small .thumbnail .image-wrap + div {
+        width: 425px;
+    }
+
+    .blog-small .thumbnail .image-wrap {margin-right: 30px;}
+
+
+    .blog-small .meta.no-thumb{margin-left: 30px;}
+}
+
+@media (max-width: 979px) and (min-width: 768px) {
+    .blog-small .thumbnail .image-wrap + div {
+        width: 245px;
+    }
+}
+
+@media (max-width: 767px) {
+    .blog-small .meta {
+        position: static;
+    }
+
+    .blog-small .post-informations{float:none; margin-top: 17px;}
+}

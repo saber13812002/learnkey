@@ -1,0 +1,1558 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooStore v1.0.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2012-09-24 17:53+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED KINGDOM\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#@ woothemes
+#: 404.php:8
+msgid "Error 404 - Page not found!"
+msgstr "برگه مورد نظر وجود ندارد!"
+
+#@ woothemes
+#: 404.php:10
+msgid "The page you trying to reach does not exist, or has been moved. Please use the menus or the search box to find what you are looking for."
+msgstr ""
+
+#@ woothemes
+#: archive.php:14
+#: archive.php:19
+#: archive.php:22
+#: archive.php:25
+msgid "Archive"
+msgstr "بایگانی"
+
+#@ woothemes
+#: archive.php:15
+msgid "RSS feed for this section"
+msgstr ""
+
+#@ woothemes
+#: archive.php:28
+msgid "Archive by Author"
+msgstr ""
+
+#@ woothemes
+#: archive.php:31
+msgid "Tag Archives:"
+msgstr ""
+
+#@ woothemes
+#: archive.php:48
+#: template-blog.php:47
+msgid "Read More..."
+msgstr ""
+
+#@ woothemes
+#: archive.php:53
+#: template-blog.php:52
+#: template-timeline.php:72
+msgid "Leave a comment"
+msgstr ""
+
+#@ woothemes
+#: archive.php:53
+#: template-blog.php:52
+msgid "1 Comment"
+msgstr ""
+
+#@ woothemes
+#: archive.php:53
+#: template-blog.php:52
+msgid "% Comments"
+msgstr ""
+
+#@ woothemes
+#: archive.php:55
+#: template-blog.php:55
+msgid "Continue Reading &rarr;"
+msgstr ""
+
+#@ woothemes
+#: archive.php:64
+#: page.php:34
+#: search.php:32
+#: single.php:62
+#: template-blog.php:67
+#: template-fullwidth.php:33
+#: template-sale.php:74
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#@ woothemes
+#: comments.php:9
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#@ woothemes
+#: comments.php:23
+msgid "No Responses"
+msgstr ""
+
+#@ woothemes
+#: comments.php:23
+msgid "One Response"
+msgstr ""
+
+#@ woothemes
+#: comments.php:23
+msgid "% Responses"
+msgstr "% پاسخ"
+
+#@ woothemes
+#: comments.php:23
+msgid "to"
+msgstr "به"
+
+#@ woothemes
+#: comments.php:40
+msgid "Trackbacks/Pingbacks"
+msgstr ""
+
+#@ woothemes
+#: comments.php:56
+msgid "Comments are closed."
+msgstr "دیدگاه ها بسته شده است."
+
+#@ woothemes
+#: comments.php:57
+msgid "No comments yet."
+msgstr "هیچ دیدگاهی ثبت نشده است"
+
+#@ woothemes
+#: footer.php:38
+msgid "All Rights Reserved."
+msgstr ""
+
+#@ woothemes
+#: footer.php:48
+msgid "Powered by"
+msgstr "قدرت گرفته از"
+
+#@ woothemes
+#: footer.php:48
+msgid "Designed by"
+msgstr "طراحی شده توسط"
+
+#@ woothemes
+#: functions/admin-backup.php:73
+msgid "WooThemes Settings Backup"
+msgstr ""
+
+#@ woothemes
+#: functions/admin-backup.php:73
+#: functions/admin-backup.php:103
+msgid "Backup Settings"
+msgstr "پشتیبان گیری تنظیمات"
+
+#@ woothemes
+#: functions/admin-backup.php:105
+msgid "Import Settings"
+msgstr "درون ریزی تنظیمات"
+
+#@ woothemes
+#: functions/admin-backup.php:107
+msgid "If you have settings in a backup file on your computer, the WooFramework can import those into this site. To get started, upload your backup file to import from below."
+msgstr ""
+
+#@ woothemes
+#: functions/admin-backup.php:112
+#, php-format
+msgid "Upload File: (Maximum Size: %s)"
+msgstr ""
+
+#@ woothemes
+#: functions/admin-backup.php:115
+msgid "Upload File and Import"
+msgstr ""
+
+#@ woothemes
+#: functions/admin-backup.php:119
+msgid "Export Settings"
+msgstr ""
+
+#@ woothemes
+#: functions/admin-backup.php:121
+msgid "When you click the button below, the WooFramework will create a text file for you to save to your computer."
+msgstr ""
+
+#@ woothemes
+#: functions/admin-backup.php:122
+#, php-format
+msgid "This text file can be used to restore your settings here on \"%s\", or to easily setup another website with the same settings\"."
+msgstr ""
+
+#@ woothemes
+#: functions/admin-backup.php:126
+msgid "All Settings"
+msgstr "همه تنظیمات"
+
+#@ woothemes
+#: functions/admin-backup.php:127
+msgid "This will contain all of the options listed below."
+msgstr ""
+
+#@ woothemes
+#: functions/admin-backup.php:129
+#: functions/admin-functions.php:3088
+msgid "Theme Options"
+msgstr "تنظیمات قالب"
+
+#@ woothemes
+#: functions/admin-backup.php:131
+msgid "SEO Settings"
+msgstr "تنظیمات سئو"
+
+#@ woothemes
+#: functions/admin-backup.php:133
+#: functions/admin-functions.php:3092
+msgid "Sidebar Manager"
+msgstr ""
+
+#@ woothemes
+#: functions/admin-backup.php:133
+msgid "This will contain only the custom sidebars themselves and not the widgets within them"
+msgstr ""
+
+#@ woothemes
+#: functions/admin-backup.php:135
+#: functions/admin-functions.php:3098
+msgid "Framework Settings"
+msgstr ""
+
+#@ woothemes
+#: functions/admin-backup.php:138
+msgid "Download Export File"
+msgstr ""
+
+#@ woothemes
+#: functions/admin-backup.php:161
+msgid "Welcome to the WooThemes Backup Manager."
+msgstr ""
+
+#@ woothemes
+#: functions/admin-backup.php:162
+msgid "Here are a few notes on using this screen."
+msgstr ""
+
+#@ woothemes
+#: functions/admin-backup.php:163
+msgid "The backup manager allows you to backup or restore your \"Theme Options\" and other settings to or from a text file."
+msgstr ""
+
+#@ woothemes
+#: functions/admin-backup.php:164
+msgid "To create a backup, simply select the setting type you'd like to backup (or \"All Settings\") and hit the \"Download Export File\" button."
+msgstr ""
+
+#@ woothemes
+#: functions/admin-backup.php:165
+msgid "To restore your settings from a backup, browse your computer for the file (under the \"Import Settings\" heading) and hit the \"Upload File and Import\" button. This will restore only the settings that have changed since the backup."
+msgstr ""
+
+#@ woothemes
+#: functions/admin-backup.php:167
+msgid "Please note that only valid backup files generated through the WooThemes Backup Manager should be imported."
+msgstr ""
+
+#@ woothemes
+#: functions/admin-backup.php:169
+msgid "Looking for assistance?"
+msgstr ""
+
+#@ woothemes
+#: functions/admin-backup.php:170
+#, php-format
+msgid "Please post your query on the %sWooThemes Support Forums%s where we will do our best to assist you further."
+msgstr ""
+
+#@ woothemes
+#: functions/admin-backup.php:190
+#, php-format
+msgid "Please note that this backup manager backs up only your settings and not your content. To backup your content, please use the %sWordPress Export Tool%s."
+msgstr ""
+
+#@ woothemes
+#: functions/admin-backup.php:193
+msgid "There was a problem importing your settings. Please Try again."
+msgstr ""
+
+#@ woothemes
+#: functions/admin-backup.php:195
+msgid "There was a problem exporting your settings. Please Try again."
+msgstr ""
+
+#@ woothemes
+#: functions/admin-backup.php:197
+msgid "The import file you've provided is invalid. Please try again."
+msgstr ""
+
+#@ woothemes
+#: functions/admin-backup.php:199
+#, php-format
+msgid "Settings successfully imported. | Return to %sTheme Options%s"
+msgstr ""
+
+#@ woothemes
+#: functions/admin-custom-nav.php:2125
+msgid "Woo - Custom Nav Menu"
+msgstr ""
+
+#@ woothemes
+#: functions/admin-custom-nav.php:2314
+msgid "Select Menu:"
+msgstr ""
+
+#@ woothemes
+#: functions/admin-custom-nav.php:2340
+#: includes/widgets/widget-woo-blogauthor.php:65
+#: includes/widgets/widget-woo-embed.php:95
+#: includes/widgets/widget-woo-search.php:48
+msgid "Title:"
+msgstr "عنوان:"
+
+#@ woothemes
+#: functions/admin-custom-nav.php:2349
+msgid "Advanced Options:"
+msgstr ""
+
+#@ woothemes
+#: functions/admin-custom-nav.php:2369
+msgid "Wrap in container DIV:"
+msgstr ""
+
+#@ woothemes
+#: functions/admin-custom-nav.php:2382
+msgid "Wrap in container UL:"
+msgstr ""
+
+#@ woothemes
+#: functions/admin-custom-nav.php:2397
+msgid "Show Top Level Descriptions:"
+msgstr ""
+
+#@ woothemes
+#: functions/admin-custom-nav.php:2417
+msgid "The Custom Menu has not been configured correctly.  Please check your theme settings before adding this widget."
+msgstr ""
+
+#@ woothemes
+#: functions/admin-custom.php:505
+msgid " Custom Settings"
+msgstr ""
+
+#@ default
+#: functions/admin-express-functions-deprecated.php:194
+#: functions/admin-express-functions.php:210
+msgid "You are not allowed to upload files to this site."
+msgstr ""
+
+#@ default
+#: functions/admin-express-functions-deprecated.php:220
+#: functions/admin-express-functions.php:236
+#, php-format
+msgid "Could not write file %1$s (%2$s)"
+msgstr ""
+
+#@ woothemes
+#: functions/admin-functions.php:1022
+msgid "less than a minute ago"
+msgstr "کمتر از یک دقیقه قبل"
+
+#@ woothemes
+#: functions/admin-functions.php:1024
+msgid "about a minute ago"
+msgstr "یک دقیقه قبل"
+
+#@ woothemes
+#: functions/admin-functions.php:1026
+msgid "minutes ago"
+msgstr "دقیقه قبل"
+
+#@ woothemes
+#: functions/admin-functions.php:1030
+msgid "hours ago"
+msgstr "ساعت قبل"
+
+#@ woothemes
+#: functions/admin-functions.php:1034
+msgid "days ago"
+msgstr "روز قبل"
+
+#@ woothemes
+#: functions/admin-functions.php:1569
+msgid "Search Results"
+msgstr "نتایج جستجو"
+
+#@ woothemes
+#: functions/admin-functions.php:1570
+msgid "Author Archives"
+msgstr "بایگانی نویسنده"
+
+#@ woothemes
+#: functions/admin-functions.php:1573
+msgid "Category Archive"
+msgstr "بایگانی دسته "
+
+#@ woothemes
+#: functions/admin-functions.php:1574
+#: functions/admin-functions.php:1579
+msgid " Archive"
+msgstr "بایگانی"
+
+#@ woothemes
+#: functions/admin-functions.php:1575
+msgid "Daily Archive"
+msgstr "بایگانی روزانه"
+
+#@ woothemes
+#: functions/admin-functions.php:1576
+msgid "Monthly Archive"
+msgstr "بایگانی ماهانه"
+
+#@ woothemes
+#: functions/admin-functions.php:1577
+msgid "Yearly Archive"
+msgstr "بایگانی سالانه"
+
+#@ woothemes
+#: functions/admin-functions.php:1578
+msgid "Tag Archive"
+msgstr "بایگانی برچسب"
+
+#@ woothemes
+#: functions/admin-functions.php:2497
+msgid "&laquo; Previous"
+msgstr "&laquo; قبل"
+
+#@ woothemes
+#: functions/admin-functions.php:2498
+msgid "Next &raquo;"
+msgstr "بعد &raquo;"
+
+#@ woothemes
+#: functions/admin-functions.php:2617
+msgid "You are here:"
+msgstr "شما اینحا هستید:"
+
+#@ woothemes
+#: functions/admin-functions.php:2620
+#: header.php:112
+msgid "Home"
+msgstr "خانه"
+
+#@ woothemes
+#: functions/admin-functions.php:2785
+msgid "g:i a"
+msgstr "g:i a"
+
+#@ woothemes
+#: functions/admin-functions.php:2788
+#, php-format
+msgid "Minute %1$s"
+msgstr "دقیقه %1$s"
+
+#@ woothemes
+#: functions/admin-functions.php:2788
+msgid "i"
+msgstr "i"
+
+#@ woothemes
+#: functions/admin-functions.php:2791
+msgid "g a"
+msgstr "g a"
+
+#@ woothemes
+#: functions/admin-functions.php:2802
+#: functions/admin-functions.php:2808
+#: functions/admin-functions.php:2813
+#: functions/admin-functions.php:2818
+msgid "Y"
+msgstr "Y"
+
+#@ woothemes
+#: functions/admin-functions.php:2803
+#: functions/admin-functions.php:2814
+msgid "F"
+msgstr "F"
+
+#@ woothemes
+#: functions/admin-functions.php:2804
+msgid "j"
+msgstr "j"
+
+#@ woothemes
+#: functions/admin-functions.php:2809
+#, php-format
+msgid "Week %1$s"
+msgstr "هفته %1$s"
+
+#@ woothemes
+#: functions/admin-functions.php:2809
+msgid "W"
+msgstr "W"
+
+#@ woothemes
+#: functions/admin-functions.php:2825
+#, php-format
+msgid "Search results for &quot;%1$s&quot;"
+msgstr ""
+
+#@ woothemes
+#: functions/admin-functions.php:2829
+msgid "404 Not Found"
+msgstr "خطای 404"
+
+#@ woothemes
+#: functions/admin-functions.php:3077
+msgid "WooThemes"
+msgstr ""
+
+#@ woothemes
+#: functions/admin-functions.php:3101
+msgid "Update Framework"
+msgstr "بروزرسانی فریم ورک"
+
+#@ woothemes
+#: functions/admin-interface.php:329
+msgid "Options Updated"
+msgstr "تنظیمات بروز شد"
+
+#@ woothemes
+#: functions/admin-interface.php:330
+msgid "Options Reset"
+msgstr "تنظیمات بازگردانده شد"
+
+#@ woothemes
+#: functions/admin-interface.php:358
+msgid "Framework"
+msgstr "فریم ورک"
+
+#@ woothemes
+#: functions/admin-interface.php:368
+msgid "View Changelog"
+msgstr "دیدن تغییرات"
+
+#@ woothemes
+#: functions/admin-interface.php:369
+msgid "View Themedocs"
+msgstr ""
+
+#@ woothemes
+#: functions/admin-interface.php:370
+msgid "Visit Forum"
+msgstr "نمایش تالار گفتگو"
+
+#@ woothemes
+#: functions/admin-interface.php:1259
+msgid "Options Saved Successfully"
+msgstr "تنظیمات با موفقیت ذخیره شد"
+
+#@ woothemes
+#: functions/admin-interface.php:1263
+msgid "There was an error while saving your options. Please try again."
+msgstr ""
+
+#@ woothemes
+#: functions/admin-interface.php:1267
+msgid "Options Reset Successfully"
+msgstr ""
+
+#@ woothemes
+#: functions/admin-interface.php:1806
+msgid "You are not able to update this option because you lack the <code>unfiltered_html</code> capability."
+msgstr ""
+
+#@ woothemes
+#: functions/admin-interface.php:1968
+msgid "New Version"
+msgstr "نسخه جدید"
+
+#@ woothemes
+#: functions/admin-interface.php:1969
+msgid "New Feature"
+msgstr ""
+
+#@ woothemes
+#: functions/admin-interface.php:1970
+msgid "Bugfix"
+msgstr ""
+
+#@ woothemes
+#: functions/admin-interface.php:1994
+msgid "Theme update is available"
+msgstr ""
+
+#@ woothemes
+#: functions/admin-interface.php:1994
+msgid "Get the new version"
+msgstr ""
+
+#@ woothemes
+#: functions/admin-interface.php:1994
+#, php-format
+msgid "Update Type: %s"
+msgstr ""
+
+#@ woothemes
+#: functions/admin-interface.php:2050
+#, php-format
+msgid "Theme update is available (v%s). %sDownload new version%s (%sSee Changelog%s)"
+msgstr ""
+
+#@ woothemes
+#: functions/admin-medialibrary-uploader.php:56
+msgid "WooFramework Internal Container"
+msgstr ""
+
+#@ woothemes
+#: functions/admin-medialibrary-uploader.php:182
+msgid "Upload"
+msgstr ""
+
+#@ woothemes
+#: functions/admin-medialibrary-uploader.php:219
+msgid "View File"
+msgstr ""
+
+#@ woothemes
+#: functions/admin-medialibrary-uploader.php:413
+msgid "Gallery"
+msgstr ""
+
+#@ woothemes
+#: functions/admin-medialibrary-uploader.php:413
+msgid "Previously Uploaded"
+msgstr ""
+
+#@ woothemes
+#: functions/admin-medialibrary-uploader.php:431
+msgid "Use this Image"
+msgstr ""
+
+#@ woothemes
+#: functions/admin-medialibrary-uploader.php:432
+#, php-format
+msgid "Use as %s"
+msgstr ""
+
+#@ woothemes
+#: functions/admin-shortcodes.php:402
+msgid "No related posts found"
+msgstr ""
+
+#@ woothemes
+#: functions/admin-shortcodes.php:926
+msgid "Hide the Content"
+msgstr ""
+
+#@ woothemes
+#: functions/admin-shortcodes.php:927
+msgid "Show the Content"
+msgstr ""
+
+#@ woothemes
+#: functions/admin-shortcodes.php:934
+msgid "Read More"
+msgstr ""
+
+#@ woothemes
+#: functions/admin-shortcodes.php:935
+msgid "Read Less"
+msgstr ""
+
+#@ woothemes
+#: functions/admin-shortcodes.php:1046
+msgid "Message via the contact form"
+msgstr ""
+
+#@ woothemes
+#: functions/admin-shortcodes.php:1047
+#: includes/theme-functions.php:223
+#: includes/theme-functions.php:232
+#: template-contact.php:175
+msgid "Submit"
+msgstr ""
+
+#@ woothemes
+#: functions/admin-shortcodes.php:1343
+msgid "Please enter your name"
+msgstr ""
+
+#@ woothemes
+#: functions/admin-shortcodes.php:1344
+msgid "Please enter your email address (and please make sure it's valid)"
+msgstr ""
+
+#@ woothemes
+#: functions/admin-shortcodes.php:1345
+msgid "Please enter your message"
+msgstr ""
+
+#@ woothemes
+#: functions/admin-shortcodes.php:1428
+#: functions/admin-shortcodes.php:1436
+#: template-contact.php:58
+#: template-contact.php:65
+msgid "From: "
+msgstr ""
+
+#@ woothemes
+#: functions/admin-shortcodes.php:1428
+#: functions/admin-shortcodes.php:1436
+#: template-contact.php:58
+msgid "Reply-To: "
+msgstr ""
+
+#@ woothemes
+#: functions/admin-shortcodes.php:1458
+#: template-contact.php:127
+msgid "Your email was successfully sent."
+msgstr ""
+
+#@ woothemes
+#: functions/admin-shortcodes.php:1467
+msgid "There were one or more errors while submitting the form."
+msgstr ""
+
+#@ woothemes
+#: functions/admin-shortcodes.php:1475
+#: template-contact.php:146
+msgid "E-mail has not been setup properly. Please add your contact e-mail!"
+msgstr ""
+
+#@ woothemes
+#@ default
+#: functions/admin-shortcodes.php:1497
+#: includes/theme-functions.php:302
+#: template-contact.php:153
+msgid "Name"
+msgstr ""
+
+#@ woothemes
+#@ default
+#: functions/admin-shortcodes.php:1508
+#: includes/theme-functions.php:306
+#: template-contact.php:160
+msgid "Email"
+msgstr ""
+
+#@ woothemes
+#: functions/admin-shortcodes.php:1519
+#: template-contact.php:167
+msgid "Message"
+msgstr ""
+
+#@ woothemes
+#: functions/admin-shortcodes.php:1655
+#: template-contact.php:173
+msgid "Send a copy of this email to yourself"
+msgstr ""
+
+#@ woothemes
+#: functions/admin-shortcodes.php:1664
+#: template-contact.php:174
+msgid "If you want to submit this form, do not enter anything in this field"
+msgstr ""
+
+#@ woothemes
+#: functions/admin-shortcodes.php:2039
+#: functions/admin-shortcodes.php:2089
+#: functions/admin-shortcodes.php:2105
+#, php-format
+msgid "My %s Profile"
+msgstr ""
+
+#@ woothemes
+#: functions/admin-shortcodes.php:2060
+#: includes/theme-functions.php:241
+msgid "Subscribe to our RSS feed"
+msgstr ""
+
+#@ woothemes
+#: functions/admin-shortcodes.php:2402
+#: includes/widgets/widget-woo-twitter.php:26
+msgid "Follow"
+msgstr ""
+
+#@ woothemes
+#: functions/js/shortcode-generator/dialog.php:51
+msgid "Customize the Shortcode"
+msgstr ""
+
+#@ woothemes
+#: functions/js/shortcode-generator/dialog.php:60
+msgid "Preview"
+msgstr ""
+
+#@ woothemes
+#: functions/js/shortcode-generator/dialog.php:74
+msgid "Ninja Trouble"
+msgstr ""
+
+#@ woothemes
+#: functions/js/shortcode-generator/dialog.php:77
+#, php-format
+msgid "Your version of the WooFramework (%s) does not yet support shortcodes. Shortcodes were introduced with version %s of the framework."
+msgstr ""
+
+#@ woothemes
+#: functions/js/shortcode-generator/dialog.php:79
+#: functions/js/shortcode-generator/dialog.php:93
+msgid "What to do now?"
+msgstr ""
+
+#@ woothemes
+#: functions/js/shortcode-generator/dialog.php:81
+msgid "Upgrading your theme, or rather the WooFramework portion of it, will do the trick."
+msgstr ""
+
+#@ woothemes
+#: functions/js/shortcode-generator/dialog.php:83
+#, php-format
+msgid "The framework is a collection of functionality that all WooThemes have in common. In most cases you can update the framework even if you have modified your theme, because the framework resides in a separate location (under %s)."
+msgstr ""
+
+#@ woothemes
+#: functions/js/shortcode-generator/dialog.php:85
+#, php-format
+msgid "There's a tutorial on how to do this on WooThemes.com: %sHow to upgradeyour theme%s."
+msgstr ""
+
+#@ woothemes
+#: functions/js/shortcode-generator/dialog.php:87
+msgid "<strong>Remember:</strong> Every Ninja has a backup plan. Safe or not, always backup your theme before you update it or make changes to it."
+msgstr ""
+
+#@ woothemes
+#: functions/js/shortcode-generator/dialog.php:91
+msgid "Looks like your active theme is not from WooThemes. The shortcode generator only works with themes from WooThemes."
+msgstr ""
+
+#@ woothemes
+#: functions/js/shortcode-generator/dialog.php:95
+msgid "Pick a fight: (1) If you already have a theme from WooThemes, install and activate it or (2) if you don't yet have one of the awesome WooThemes head over to the <a href=\"http://www.woothemes.com/themes/\" target=\"_blank\" title=\"WooThemes Gallery\">WooThemes Gallery</a> and get one."
+msgstr ""
+
+#@ woothemes
+#: header.php:83
+msgid "Search for:"
+msgstr ""
+
+#@ woothemes
+#: header.php:84
+msgid "Search for products"
+msgstr ""
+
+#@ woothemes
+#: header.php:85
+msgid "Search"
+msgstr ""
+
+#@ woothemes
+#: header.php:121
+#: includes/theme-woocommerce.php:99
+msgid "View your shopping cart"
+msgstr ""
+
+#@ woothemes
+#: header.php:124
+#: includes/theme-woocommerce.php:100
+#, php-format
+msgid "%d item &ndash; "
+msgid_plural "%d items &ndash; "
+msgstr[0] ""
+msgstr[1] ""
+
+#@ woothemes
+#: header.php:134
+msgid "My Account"
+msgstr ""
+
+#@ woothemes
+#: header.php:134
+msgid "Account"
+msgstr ""
+
+#@ woothemes
+#: header.php:138
+msgid "Checkout"
+msgstr ""
+
+#@ woothemes
+#: includes/slider.php:13
+msgid "&larr; Previous"
+msgstr ""
+
+#@ woothemes
+#: includes/slider.php:14
+msgid "Next &rarr;"
+msgstr ""
+
+#@ woothemes
+#: includes/slider.php:72
+msgid "Please add some Slides to display the Featured Slider."
+msgstr ""
+
+#@ woothemes
+#: includes/theme-comments.php:20
+msgid "at"
+msgstr ""
+
+#@ woothemes
+#: includes/theme-comments.php:21
+msgid "Direct link to this comment"
+msgstr ""
+
+#@ woothemes
+#: includes/theme-comments.php:22
+msgid "Edit"
+msgstr ""
+
+#@ woothemes
+#: includes/theme-comments.php:31
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#@ woothemes
+#: includes/theme-functions.php:83
+msgid "Primary Menu"
+msgstr ""
+
+#@ woothemes
+#: includes/theme-functions.php:84
+msgid "Top Menu"
+msgstr ""
+
+#@ woothemes
+#: includes/theme-functions.php:101
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#@ woothemes
+#: includes/theme-functions.php:102
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#@ woothemes
+#: includes/theme-functions.php:144
+msgid "Posted on"
+msgstr ""
+
+#@ woothemes
+#: includes/theme-functions.php:145
+msgid "by"
+msgstr "توسط"
+
+#@ woothemes
+#: includes/theme-functions.php:146
+msgid "in"
+msgstr "در"
+
+#@ woothemes
+#: includes/theme-functions.php:147
+#: page.php:24
+#: template-fullwidth.php:27
+#: template-sale.php:64
+msgid "{ Edit }"
+msgstr "ویرایش اطلاعات"
+
+#@ woothemes
+#: includes/theme-functions.php:162
+msgctxt "post type general name"
+msgid "Slides"
+msgstr ""
+
+#@ woothemes
+#: includes/theme-functions.php:163
+msgctxt "post type singular name"
+msgid "Slide"
+msgstr ""
+
+#@ woothemes
+#: includes/theme-functions.php:164
+msgctxt "slide"
+msgid "Add New"
+msgstr ""
+
+#@ woothemes
+#: includes/theme-functions.php:165
+msgid "Add New Slide"
+msgstr ""
+
+#@ woothemes
+#: includes/theme-functions.php:166
+msgid "Edit Slide"
+msgstr ""
+
+#@ woothemes
+#: includes/theme-functions.php:167
+msgid "New Slide"
+msgstr ""
+
+#@ woothemes
+#: includes/theme-functions.php:168
+msgid "View Slide"
+msgstr ""
+
+#@ woothemes
+#: includes/theme-functions.php:169
+msgid "Search Slides"
+msgstr ""
+
+#@ woothemes
+#: includes/theme-functions.php:170
+msgid "No slides found"
+msgstr ""
+
+#@ woothemes
+#: includes/theme-functions.php:171
+msgid "No slides found in Trash"
+msgstr ""
+
+#@ woothemes
+#: includes/theme-functions.php:212
+#: includes/widgets/widget-woo-subscribe.php:36
+msgid "Subscribe"
+msgstr ""
+
+#@ woothemes
+#: includes/theme-functions.php:215
+msgid "Subscribe to our e-mail newsletter to receive updates."
+msgstr ""
+
+#@ woothemes
+#: includes/theme-functions.php:219
+#: includes/theme-functions.php:231
+msgid "E-mail"
+msgstr ""
+
+#@ woothemes
+#: includes/theme-functions.php:244
+msgid "Follow us on Twitter"
+msgstr ""
+
+#@ woothemes
+#: includes/theme-functions.php:247
+msgid "Connect on Facebook"
+msgstr ""
+
+#@ woothemes
+#: includes/theme-functions.php:250
+msgid "Watch on YouTube"
+msgstr ""
+
+#@ woothemes
+#: includes/theme-functions.php:253
+msgid "See photos on Flickr"
+msgstr ""
+
+#@ woothemes
+#: includes/theme-functions.php:256
+msgid "Connect on LinkedIn"
+msgstr ""
+
+#@ woothemes
+#: includes/theme-functions.php:259
+msgid "Discover on Delicious"
+msgstr ""
+
+#@ woothemes
+#: includes/theme-functions.php:262
+msgid "View Google+ profile"
+msgstr ""
+
+#@ woothemes
+#: includes/theme-functions.php:272
+msgid "Related Posts:"
+msgstr ""
+
+#@ woothemes
+#: includes/theme-functions.php:295
+msgid "Required"
+msgstr ""
+
+#@ default
+#: includes/theme-functions.php:310
+msgid "Website"
+msgstr ""
+
+#@ woothemes
+#: includes/theme-functions.php:330
+msgid "Submit Comment"
+msgstr ""
+
+#@ woothemes
+#: includes/theme-functions.php:331
+msgid "Click here to cancel reply."
+msgstr ""
+
+#@ woothemes
+#: includes/theme-woocommerce.php:10
+msgid "WooCommerce must be installed"
+msgstr ""
+
+#@ woothemes
+#: includes/widgets/widget-woo-adspace.php:11
+msgid "Woo - Adspace Widget"
+msgstr ""
+
+#@ woothemes
+#: includes/widgets/widget-woo-adspace.php:57
+#: includes/widgets/widget-woo-subscribe.php:61
+#: includes/widgets/widget-woo-twitter.php:65
+msgid "Title (optional):"
+msgstr "عنوان (دلخواه):"
+
+#@ woothemes
+#: includes/widgets/widget-woo-adspace.php:62
+msgid "Ad Code:"
+msgstr "کد تبلیغ:"
+
+#@ woothemes
+#: includes/widgets/widget-woo-adspace.php:68
+msgid "Image Url:"
+msgstr "آدرس تصویر:"
+
+#@ woothemes
+#: includes/widgets/widget-woo-adspace.php:72
+msgid "Link URL:"
+msgstr ""
+
+#@ woothemes
+#: includes/widgets/widget-woo-adspace.php:76
+msgid "Alt text:"
+msgstr ""
+
+#@ woothemes
+#: includes/widgets/widget-woo-blogauthor.php:10
+msgid "Woo - Blog Author Info"
+msgstr ""
+
+#@ woothemes
+#: includes/widgets/widget-woo-blogauthor.php:69
+msgid "Bio:"
+msgstr "درباره:"
+
+#@ woothemes
+#: includes/widgets/widget-woo-blogauthor.php:73
+msgid "<a href=\"http://www.gravatar.com/\">Gravatar</a> E-mail:"
+msgstr ""
+
+#@ woothemes
+#: includes/widgets/widget-woo-blogauthor.php:77
+msgid "Gravatar Size:"
+msgstr ""
+
+#@ woothemes
+#: includes/widgets/widget-woo-blogauthor.php:81
+msgid "Gravatar Alignment:"
+msgstr ""
+
+#@ woothemes
+#: includes/widgets/widget-woo-blogauthor.php:83
+msgid "Left"
+msgstr "چپ"
+
+#@ woothemes
+#: includes/widgets/widget-woo-blogauthor.php:84
+msgid "Right"
+msgstr "راست"
+
+#@ woothemes
+#: includes/widgets/widget-woo-blogauthor.php:88
+msgid "Read More Text (optional):"
+msgstr "نوشته ادامه مطلب (دلخواه):"
+
+#@ woothemes
+#: includes/widgets/widget-woo-blogauthor.php:92
+msgid "Read More URL (optional):"
+msgstr "آدرس ادامه مطلب (دلخواه):"
+
+#@ woothemes
+#: includes/widgets/widget-woo-blogauthor.php:96
+msgid "Visible Pages:"
+msgstr ""
+
+#@ woothemes
+#: includes/widgets/widget-woo-blogauthor.php:98
+msgid "All"
+msgstr "همه"
+
+#@ woothemes
+#: includes/widgets/widget-woo-blogauthor.php:99
+msgid "Home only"
+msgstr ""
+
+#@ woothemes
+#: includes/widgets/widget-woo-blogauthor.php:100
+msgid "Single only"
+msgstr ""
+
+#@ woothemes
+#: includes/widgets/widget-woo-embed.php:11
+msgid "Woo - Embed/Video"
+msgstr ""
+
+#@ woothemes
+#: includes/widgets/widget-woo-embed.php:99
+msgid "Category:"
+msgstr "دسته:"
+
+#@ woothemes
+#: includes/widgets/widget-woo-embed.php:111
+msgid "Tag:"
+msgstr "برچسب:"
+
+#@ woothemes
+#: includes/widgets/widget-woo-embed.php:116
+#: includes/widgets/widget-woo-flickr.php:104
+msgid "Size:"
+msgstr "اندازه:"
+
+#@ woothemes
+#: includes/widgets/widget-woo-embed.php:122
+msgid "Limit (optional):"
+msgstr ""
+
+#@ woothemes
+#: includes/widgets/widget-woo-flickr.php:10
+msgid "Woo - Flickr"
+msgstr ""
+
+#@ woothemes
+#: includes/widgets/widget-woo-flickr.php:20
+msgid "Photos on <span>flick<span>r</span></span>"
+msgstr ""
+
+#@ woothemes
+#: includes/widgets/widget-woo-flickr.php:78
+msgid "Flickr ID (<a href=\"http://www.idgettr.com\">idGettr</a>):"
+msgstr ""
+
+#@ woothemes
+#: includes/widgets/widget-woo-flickr.php:82
+msgid "Number:"
+msgstr "تعداد:"
+
+#@ woothemes
+#: includes/widgets/widget-woo-flickr.php:90
+msgid "Type:"
+msgstr "نوع:"
+
+#@ woothemes
+#: includes/widgets/widget-woo-flickr.php:92
+msgid "User"
+msgstr "کاربر"
+
+#@ woothemes
+#: includes/widgets/widget-woo-flickr.php:93
+msgid "Group"
+msgstr ""
+
+#@ woothemes
+#: includes/widgets/widget-woo-flickr.php:97
+msgid "Sorting:"
+msgstr ""
+
+#@ woothemes
+#: includes/widgets/widget-woo-flickr.php:99
+#: includes/widgets/widget-woo-tabs.php:59
+#: includes/widgets/widget-woo-tabs.php:68
+#: includes/widgets/widget-woo-tabs.php:205
+#: includes/widgets/widget-woo-tabs.php:215
+msgid "Latest"
+msgstr ""
+
+#@ woothemes
+#: includes/widgets/widget-woo-flickr.php:100
+msgid "Random"
+msgstr "تصادفی"
+
+#@ woothemes
+#: includes/widgets/widget-woo-flickr.php:106
+msgid "Square"
+msgstr ""
+
+#@ woothemes
+#: includes/widgets/widget-woo-flickr.php:107
+msgid "Medium"
+msgstr ""
+
+#@ woothemes
+#: includes/widgets/widget-woo-flickr.php:108
+msgid "Thumbnail"
+msgstr ""
+
+#@ woothemes
+#: includes/widgets/widget-woo-search.php:10
+msgid "Woo - Search"
+msgstr ""
+
+#@ woothemes
+#: includes/widgets/widget-woo-subscribe.php:10
+msgid "Woo - Subscribe / Connect"
+msgstr ""
+
+#@ woothemes
+#: includes/widgets/widget-woo-subscribe.php:65
+msgid "Disable Subscription Form"
+msgstr ""
+
+#@ woothemes
+#: includes/widgets/widget-woo-subscribe.php:68
+msgid "Disable Social Icons"
+msgstr "غیر فعال سازی آیکون های اشتراک گذاری"
+
+#@ woothemes
+#: includes/widgets/widget-woo-subscribe.php:71
+msgid "Disable in Posts"
+msgstr "غیر فعال در مطالب"
+
+#@ woothemes
+#: includes/widgets/widget-woo-subscribe.php:74
+msgid "Disable in Pages"
+msgstr "غیر فعال در برگه ها"
+
+#@ woothemes
+#: includes/widgets/widget-woo-tabs.php:37
+msgid "This widget is the Tabs that classically goes into the sidebar. It contains the Popular posts, Latest Posts, Recent comments and a Tag cloud."
+msgstr ""
+
+#@ woothemes
+#: includes/widgets/widget-woo-tabs.php:43
+msgid "Woo - Tabs"
+msgstr ""
+
+#@ woothemes
+#: includes/widgets/widget-woo-tabs.php:61
+#: includes/widgets/widget-woo-tabs.php:70
+#: includes/widgets/widget-woo-tabs.php:206
+#: includes/widgets/widget-woo-tabs.php:218
+#: template-sitemap.php:61
+msgid "Comments"
+msgstr "دیدگاه ها"
+
+#@ woothemes
+#: includes/widgets/widget-woo-tabs.php:63
+#: includes/widgets/widget-woo-tabs.php:72
+#: includes/widgets/widget-woo-tabs.php:207
+#: includes/widgets/widget-woo-tabs.php:221
+msgid "Tags"
+msgstr "برچسب"
+
+#@ woothemes
+#: includes/widgets/widget-woo-tabs.php:66
+#: includes/widgets/widget-woo-tabs.php:204
+#: includes/widgets/widget-woo-tabs.php:212
+msgid "Popular"
+msgstr "محبوب"
+
+#@ woothemes
+#: includes/widgets/widget-woo-tabs.php:187
+msgid "Number of posts:"
+msgstr "تعداد پست ها:"
+
+#@ woothemes
+#: includes/widgets/widget-woo-tabs.php:192
+msgid "Thumbnail Size (0=disable):"
+msgstr ""
+
+#@ woothemes
+#: includes/widgets/widget-woo-tabs.php:197
+msgid "Popular limit (days):"
+msgstr ""
+
+#@ woothemes
+#: includes/widgets/widget-woo-tabs.php:202
+msgid "First Visible Tab:"
+msgstr ""
+
+#@ woothemes
+#: includes/widgets/widget-woo-tabs.php:210
+msgid "Hide Tabs:"
+msgstr ""
+
+#@ woothemes
+#: includes/widgets/widget-woo-tabs.php:328
+msgid "on"
+msgstr "در"
+
+#@ woothemes
+#: includes/widgets/widget-woo-twitter.php:10
+msgid "Woo - Twitter Stream"
+msgstr ""
+
+#@ woothemes
+#: includes/widgets/widget-woo-twitter.php:26
+msgid "on Twitter"
+msgstr "در توییتر"
+
+#@ woothemes
+#: includes/widgets/widget-woo-twitter.php:69
+msgid "Username:"
+msgstr "نام کاربری:"
+
+#@ woothemes
+#: includes/widgets/widget-woo-twitter.php:73
+msgid "Limit:"
+msgstr "محدودیت:"
+
+#@ woothemes
+#: page.php:21
+#: single.php:25
+msgid "Pages:"
+msgstr "برگه ها:"
+
+#@ woothemes
+#: index.php:29
+msgid "Featured Products"
+msgstr "محصولات ویژه"
+
+#@ woothemes
+#: index.php:38
+msgid "Recent Products"
+msgstr "جدیدترین محصولات"
+
+#@ woothemes
+#: search-form.php:3
+msgid "Search..."
+msgstr "جستجو..."
+
+#@ woothemes
+#: search.php:12
+msgid "Search results:"
+msgstr "نتایج جستجو:"
+
+#@ woothemes
+#: single.php:28
+msgid "Tags: "
+msgstr "برچسب ها:"
+
+#@ woothemes
+#: single.php:36
+#, php-format
+msgid "About %s"
+msgstr ""
+
+#@ woothemes
+#: single.php:40
+#, php-format
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#@ woothemes
+#: template-archives.php:25
+msgid "The Last 30 Posts"
+msgstr ""
+
+#@ woothemes
+#: template-archives.php:31
+msgid "comments"
+msgstr "دیدگاه ها"
+
+#@ woothemes
+#: template-archives.php:36
+#: template-sitemap.php:33
+msgid "Categories"
+msgstr "دسته ها"
+
+#@ woothemes
+#: template-archives.php:43
+msgid "Monthly Archives"
+msgstr "بایگانی ماهانه"
+
+#@ woothemes
+#: template-contact.php:22
+msgid "You forgot to enter your name."
+msgstr "نام خود را وارد کنید"
+
+#@ woothemes
+#: template-contact.php:30
+msgid "You forgot to enter your email address."
+msgstr "آدرس ایمیلتان را وارد نکرده اید"
+
+#@ woothemes
+#: template-contact.php:33
+msgid "You entered an invalid email address."
+msgstr "آدرس ایمیلی که وارد کرده اید نادرست است"
+
+#@ woothemes
+#: template-contact.php:41
+msgid "You forgot to enter your comments."
+msgstr "مثل اینکه یادتان رفت دیدگاهتان را بنویسید"
+
+#@ woothemes
+#: template-contact.php:55
+msgid "Contact Form Submission from "
+msgstr ""
+
+#@ woothemes
+#: template-contact.php:64
+msgid "You emailed "
+msgstr "شما ایمیل کردید"
+
+#@ woothemes
+#: template-contact.php:87
+msgid "You forgot to enter your"
+msgstr ""
+
+#@ woothemes
+#: template-contact.php:94
+msgid "You entered an invalid"
+msgstr ""
+
+#@ woothemes
+#: template-contact.php:104
+msgid "<strong>Thanks!</strong> Your email was successfully sent."
+msgstr "<strong>متشکریم!</strong> ایمیل شما با موفقیت ارسال شد."
+
+#@ woothemes
+#: template-contact.php:142
+msgid "There was an error submitting the form."
+msgstr "خطایی در هنگام ارسال اطلاعات فرم رخ داده است"
+
+#@ woothemes
+#: template-sitemap.php:26
+msgid "Pages"
+msgstr "برگه ها"
+
+#@ woothemes
+#: template-sitemap.php:37
+msgid "Product Categories"
+msgstr "دسته های محصول"
+
+#@ woothemes
+#: template-sitemap.php:48
+msgid "Posts per category"
+msgstr "مطالب در هر دسته"
+
+#@ woothemes
+#: template-sitemap.php:67
+msgid "Products"
+msgstr "محصولات"
+
+#@ woothemes
+#: template-timeline.php:72
+msgid "1 comment"
+msgstr "1 دیدگاه"
+
+#@ woothemes
+#: template-timeline.php:72
+msgid "% comments"
+msgstr "% دیدگاه"
+

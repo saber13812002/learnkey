@@ -1,0 +1,1 @@
+$(function(){$(".roll").css("opacity","0");$("a.hover-image").hover(function(){$(this).find(".roll").animate({opacity:1},"fast")},function(){$(this).find(".roll").stop().animate({opacity:0},"fast")})})

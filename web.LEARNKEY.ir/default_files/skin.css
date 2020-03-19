@@ -1,0 +1,219 @@
+h1 {
+	color: rgb(53, 41, 35);
+}
+h2 {
+	color: rgb(53, 41, 35);
+}
+h3 {
+	color: rgb(53, 41, 35);
+}
+h4 {
+	color: rgb(53, 41, 35);
+}
+h5 {
+	color: rgb(53, 41, 35);
+}
+h6 {
+	color: rgb(53, 41, 35);
+}
+html {
+	background: url("/Content/skins/orange/img/bg.jpg") left top;
+}
+body {
+	background: url("/Content/skins/orange/img/bg.jpg") left top;
+}
+a.regular {
+	color: rgb(231, 116, 53); border-bottom-color: rgb(231, 116, 53); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+.th-yellow.button {
+	background: -ms-linear-gradient(rgb(240, 134, 75), rgb(221, 107, 44)); color: rgb(53, 41, 35); text-shadow: 1px 1px 0px rgba(255,255,255,0.5);
+}
+#header nav li:hover > a.active {
+	background: -ms-linear-gradient(rgb(240, 134, 75), rgb(221, 107, 44)); color: rgb(53, 41, 35); text-shadow: 1px 1px 0px rgba(255,255,255,0.5);
+}
+#header nav .has-children .th-yellow.button {
+	background: -ms-linear-gradient(rgb(148, 115, 98), rgb(215, 167, 21)); padding: 11px 24px 11px 15px !important; color: rgb(53, 41, 35); text-shadow: 1px 1px 0px rgba(255,255,255,0.5);
+}
+.th-brown.button {
+	background: -ms-linear-gradient(rgb(94, 79, 71), rgb(54, 42, 36));
+}
+.th-grey.button {
+	background: -ms-linear-gradient(rgb(115, 115, 115), rgb(74, 74, 74));
+}
+.th-red.button {
+	background: -ms-linear-gradient(rgb(239, 91, 66), rgb(225, 78, 53));
+}
+#header {
+	background: url("/Content/skins/orange/img/header.jpg") left top rgb(113, 63, 40); position: relative;
+}
+#header::after {
+	background: url("/Content/skins/orange/img/header-line.png") repeat-x left top;
+}
+#header nav .active {
+	color: rgb(53, 41, 35); text-shadow: 1px 1px 0px rgba(255,255,255,0.5);
+}
+#header nav li:hover > a {
+	background: rgb(53, 41, 35);
+}
+#header nav .has-children:hover > a {
+	background-color: rgb(53, 41, 35);
+}
+#header nav li:hover ul li a {
+	border-radius: 0px; background-color: rgb(53, 41, 35); -webkit-border-radius: 0;
+}
+#header nav li:hover li:hover > a {
+	background-color: rgb(81, 55, 43);
+}
+#header .controls .arrow a {
+	border-radius: 100%; width: 50px; height: 50px; display: block; position: relative; background-color: rgba(255, 255, 255, 0.75); -webkit-border-radius: 100%;
+}
+#header .controls .arrow a::after {
+	background: url("/Content/core/img/icons.png") no-repeat; margin: -15px 0px 0px -10px; left: 50%; top: 50%; width: 21px; height: 30px; position: absolute; content: "";
+}
+.svg #header .controls .arrow a::after {
+	background-image: url("/Content/core/img/icons.svg");
+}
+#header .controls .prev.arrow a::after {
+	background-position: -23px -567px;
+}
+#header .controls .next.arrow a::after {
+	background-position: -21px -631px;
+}
+.quick-search {
+	background: -ms-linear-gradient(rgb(239, 124, 60), rgb(221, 107, 44)); border-width: 1px; border-style: solid; border-color: rgb(193, 82, 22) rgb(193, 82, 22) rgb(150, 67, 23);
+}
+.quick-search .filters > li:last-child {
+	
+}
+.quick-search .advanced-search {
+	color: rgb(53, 41, 35);
+}
+.contact-info a {
+	color: rgb(231, 116, 53); clear: left; text-decoration: none; border-bottom-color: rgb(231, 116, 53); border-bottom-width: 1px; border-bottom-style: dotted; float: left; display: block;
+}
+.list-style-a a {
+	color: rgb(53, 41, 35); text-decoration: none;
+}
+.list-style-a li:hover::before {
+	background: rgb(231, 116, 53);
+}
+.list-style-a .active::before {
+	background: rgb(231, 116, 53);
+}
+.offer address p {
+	margin: 0px; padding: 5px 10px; color: rgb(53, 41, 35); line-height: 18px; font-size: 16px; max-height: 60px;
+}
+.list .offer address {
+	color: rgb(53, 41, 35);
+}
+.post h1.entry-title a {
+	color: rgb(53, 41, 35);
+}
+.general.box .list .offer address {
+	color: rgb(53, 41, 35); line-height: 130%;
+}
+.general.box .list .offer address a {
+	color: rgb(53, 41, 35); line-height: 130%;
+}
+.offer a.sidebar-recent-posts {
+	color: rgb(53, 41, 35); line-height: 130%; padding-bottom: 5px; display: inline-block;
+}
+.offer .prop-info .highlight {
+	background: rgb(231, 116, 53); color: rgb(53, 41, 35); line-height: 18px; border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+.offer .prop-info .highlight span {
+	color: rgb(53, 41, 35);
+}
+.offers .packed .offer {
+	color: rgb(53, 41, 35);
+}
+.offers .packed .price {
+	background: rgb(231, 116, 53); color: rgb(53, 41, 35);
+}
+.testimonials {
+	background: rgb(219, 210, 203);
+}
+.warning {
+	background-color: rgb(248, 207, 54);
+}
+.error {
+	background-color: rgb(239, 91, 66);
+}
+.info {
+	background-color: rgb(83, 221, 242);
+}
+.success {
+	background-color: rgb(142, 208, 116);
+}
+.promises {
+	color: rgb(53, 41, 35);
+}
+#footer {
+	background: rgb(71, 57, 51);
+}
+#footer .col {
+	
+}
+#footer :first-child.col {
+	border-left-color: rgb(86, 75, 70); border-left-width: 1px; border-left-style: solid;
+}
+#footer a {
+	
+}
+#footer ul li {
+	padding: 0px 5px; display: inline-block;
+}
+#footer a:hover {
+	color: rgb(231, 116, 53);
+}
+#footer form .dark.text {
+	background: rgb(60, 44, 35); color: rgb(118, 107, 99);
+}
+.entry-image .the-date {
+	background: rgb(231, 116, 53);
+}
+.entry-meta a {
+	color: rgb(231, 116, 53); border-bottom-color: rgb(231, 116, 53); border-bottom-width: 1px; border-bottom-style: dotted; display: inline-block;
+}
+#main .ui-accordion .ui-accordion-header {
+	background: rgb(53, 41, 35);
+}
+#main .ui-accordion .ui-state-active {
+	background: rgb(231, 116, 53); color: rgb(53, 41, 35);
+}
+#main .ui-tabs .ui-corner-top {
+	background: rgb(53, 41, 35);
+}
+#main .ui-tabs .ui-tabs-active a {
+	color: rgb(53, 41, 35);
+}
+.cloud-tags a.tag:hover {
+	border: 1px solid rgb(231, 116, 53);
+}
+.filterbar {
+	background: rgb(222, 217, 213);
+}
+.filterbar .listing-view-change .active {
+	color: rgb(231, 116, 53);
+}
+.filterbar .listing-view-change .active:hover {
+	border-bottom-color: rgb(231, 116, 53); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+.paging a {
+	border: 1px solid rgb(195, 193, 191);
+}
+.icon {
+	background: rgb(43, 45, 38);
+}
+@media only screen and (max-width:1024px)
+{
+.quick-search .filters select {
+	color: rgb(76, 59, 47);
+}
+}
+#main .ui-tabs .ui-state-hover a {
+	background: rgb(231, 116, 53);
+}
+#main .ui-tabs .ui-tabs-active {
+	background: rgb(231, 116, 53);
+}

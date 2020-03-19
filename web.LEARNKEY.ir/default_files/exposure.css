@@ -1,0 +1,147 @@
+#images {
+	padding: 0px 50px; width: 100%; overflow: hidden; float: left; display: none;
+}
+#right {
+	top: 0px; position: absolute;
+}
+#left {
+	top: 0px; position: absolute;
+}
+#left {
+	left: 0px;
+}
+#right {
+	right: 0px;
+}
+.panel {
+	position: relative;
+}
+#right a img {
+	border: currentColor; width: 20px; height: 40px; opacity: 0.5;
+}
+#left a img {
+	border: currentColor; width: 20px; height: 40px; opacity: 0.5;
+}
+#right a:hover img {
+	opacity: 1;
+}
+#left a:hover img {
+	opacity: 1;
+}
+#right a {
+	
+}
+#left a {
+	
+}
+#left .left-arrow {
+	width: 40px; height: 40px; margin-top: 25%; display: block; position: relative;
+}
+#right .right-arrow {
+	width: 40px; height: 40px; margin-top: 25%; display: block; position: relative;
+}
+#left .left-arrow::after {
+	background: url("/Content/core/img/icons.png") no-repeat; margin: -12px 0px 0px -8px; left: 50%; top: 50%; width: 16px; height: 24px; position: absolute; content: "";
+}
+#right .right-arrow::after {
+	background: url("/Content/core/img/icons.png") no-repeat; margin: -12px 0px 0px -8px; left: 50%; top: 50%; width: 16px; height: 24px; position: absolute; content: "";
+}
+.svg #left .left-arrow::after {
+	background-image: url("/Content/core/img/icons.svg");
+}
+.svg #right .right-arrow::after {
+	background-image: url("/Content/core/img/icons.svg");
+}
+#left .left-arrow::after {
+	background-position: -25px -697px;
+}
+#right .right-arrow::after {
+	background-position: -25px -761px;
+}
+#left .left-arrow:hover {
+	opacity: 0.4; background-color: rgb(204, 204, 204);
+}
+#right .right-arrow:hover {
+	opacity: 0.4; background-color: rgb(204, 204, 204);
+}
+#right a.right-arrow {
+	background-position: right top;
+}
+.panel {
+	margin: 10px 0px 0px;
+}
+ul.exposureThumbs {
+	margin: 0px; padding: 0px; list-style-type: none;
+}
+ul.exposureThumbs li {
+	background: rgb(17, 17, 17); margin: 0px 3px 0px 0px; padding: 0px; text-align: center; float: left; display: none;
+}
+ul.exposureThumbs li img {
+	cursor: pointer;
+}
+ul.exposureThumbs li.last {
+	
+}
+.exposureTarget {
+	background-position: center; margin: 0px auto; padding: 0px; width: 650px !important; height: 340px !important; overflow: hidden; position: relative; background-image: url("/Content/modules/exposure/res/loader.gif"); background-repeat: no-repeat; background-color: rgb(17, 17, 17);
+}
+.exposureWrapper {
+	left: 0px; top: 0px; position: absolute;
+}
+.exposureWrapper img {
+	left: 0px; top: 0px; width: 650px !important; height: 340px !important; position: absolute; cursor: pointer;
+}
+.exposureThumbs .current {
+	width: 80px !important; height: 60px !important;
+}
+.exposureThumbs img {
+	width: 80px !important; height: 60px !important;
+}
+.exposureLoaded {
+	background-image: none;
+}
+.exposureData {
+	padding: 7px; left: 0px; right: 0px; bottom: 0px; color: rgb(255, 255, 255); font-size: 16px; font-weight: bold; position: absolute; background-image: url("/Content/modules/exposure/res/veil.png");
+}
+ul.exposureThumbs li {
+	margin: 0px 5px 10px;
+}
+.exposureSlideshowControls a {
+	padding: 2px 6px; color: rgb(187, 187, 170); font-size: 11px; text-decoration: none; display: inline;
+}
+.exposureSlideshowControls a:active {
+	color: rgb(68, 68, 68); background-color: rgb(153, 153, 153);
+}
+.exposureSlideshowControls a:hover {
+	color: rgb(68, 68, 68); background-color: rgb(153, 153, 153);
+}
+.clear {
+	clear: both;
+}
+p.info {
+	margin: 40px auto; width: 600px; text-align: center;
+}
+p.info a {
+	color: rgb(0, 111, 192);
+}
+p.info a:hover {
+	color: rgb(0, 132, 231);
+}
+p.info a:active {
+	color: rgb(0, 132, 231);
+}
+@media only screen and (max-width:980px)
+{
+#exposure {
+	width: auto !important; height: auto !important; position: relative;
+}
+.exposureWrapper .exposureCurrentImage {
+	width: 100%; position: relative;
+}
+.exposureWrapper {
+	width: 100%; position: relative;
+}
+.exposureWrapper .exposureLastImage {
+	display: none !important;
+}
+}
